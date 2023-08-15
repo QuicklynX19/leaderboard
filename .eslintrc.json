@@ -18,5 +18,9 @@
     "sourceType": "module"
   },
   "plugins": ["@typescript-eslint", "simple-import-sort"],
-  "ignorePatterns": ["**/*.scss"]
+  "ignorePatterns": ["**/*.scss"],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
+  }
 }

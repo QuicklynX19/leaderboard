@@ -1,4 +1,6 @@
-.container {
+.gameActionsContainer {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+  gap: 16px;
 }
